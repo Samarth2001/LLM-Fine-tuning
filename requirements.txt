@@ -1,0 +1,23 @@
+# Core dependencies (tested versions)
+torch==2.1.2
+transformers==4.36.2
+peft==0.7.1
+accelerate==0.25.0
+bitsandbytes==0.41.3
+datasets==2.15.0
+trl==0.7.6
+
+# Evaluation
+evaluate==0.4.1
+rouge-score==0.1.2
+sacrebleu==2.3.1
+
+# Utilities
+tqdm==4.66.1
+pandas==2.1.4
+matplotlib==3.8.2
+seaborn==0.13.0
+
+# Optional (for advanced experiments)
+# auto-gptq==0.5.1
+# optimum==1.16.0
